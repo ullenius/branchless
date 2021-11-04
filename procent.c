@@ -16,7 +16,7 @@ void procent(double ny, double old) {
 	const double procent = ((1 - forandringsfaktor) * smaller) + ( (forandringsfaktor - 1) * (smaller ^ 1) );
 
 	const char symbol = (char) (43 + smaller + smaller); /* ASCII for + */
-	printf("Procent: %c %.2f\n", symbol, procent * 100);
+	printf("Procent: %c %.2f %%\n", symbol, procent * 100);
 }
 
 
